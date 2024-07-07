@@ -14,7 +14,7 @@
 
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">   -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  <link href="http://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="ext/css"> 
+  <link href="http://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css"> 
   <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" type="text/css">
   <link rel="icon" type="image/png" href="img/favicon.png">
@@ -29,11 +29,44 @@
       background-position: center top;
       background-repeat: no-repeat;
       background-attachment: fixed;
-      color: rgb(122, 131, 134);
+      color: rgb(163, 178, 187);
+    }
+
+    a:link, a:visited {
+      color: Aquamarine;	/*Aquamarine;*/	
+      background-color: transparent;  /*transparent; */
+      text-decoration: none;
+    }
+
+    a:hover, a:active {
+      color: White;	/*PaleTurquoise;*/	/*White;*/
+      background-color: Crimson;	/*DarkSlateGrey;*/	/*Crimson;*/
+      text-decoration: none;
+    }
+
+    h4{
+      font-size: 1.5em;
+    }
+
+    p{
+      font-size: 1.125em;
     }
     
     .emphasizeText{
+      color: rgb(230, 240, 250);
+    }
+
+    .emphasizeText-2{
+      color: rgb(255, 255, 255);
+      background-color: rgb(120, 70, 90);
+    }
+
+    .normalText{
       color: rgb(163, 178, 187);
+    }
+
+    .blueText{
+      color: rgb(120, 180, 220);
     }
 
     .container{
@@ -44,6 +77,15 @@
     .page-header {
       /* overrides bootstrap page-header */
       padding-bottom: 9px;
+      margin: 40px 0 20px;
+      color: rgb(75, 175, 215);
+      border-bottom: 1px solid rgb(35, 85, 115);
+      /*border-bottom: 1px solid #cccccc;*/   /*default*/
+    }
+
+    .page-header-mid {
+      /* overrides bootstrap page-header */
+      padding-bottom: 5px;
       margin: 40px 0 20px;
       color: rgb(75, 175, 215);
       border-bottom: 1px solid rgb(35, 85, 115);
@@ -73,7 +115,7 @@
     }
 
     .cpyright{
-      font-size: 12px;
+      font-size: 1em;
     }
     
   </style>
@@ -97,25 +139,31 @@
           I am <b>Umut Dervis,</b> <br>           
           </h4>
          
-          <p> 
-              I have been making 2D Game Art & Visual Design for more than 10 years.
-              <!--I also <a href="www.mushyjukebox.com">develop games.</a>-->
-              I am experienced in:<br>
+          <p> <br>
+             	and I have been making video games as <span class="emphasizeText-2">a solo developer for the past 15 years,</span> working both independently and in collaboration with sponsors / publishers.<br><br>
+		I did almost all of the <span class="emphasizeText-2">design, art & programming</span> in my games, I also created <span class="emphasizeText-2">soundtracks</span> occasionaly. <br><br>
+
+		I released many games to <span class="emphasizeText-2">web, desktop, mobile & Nintendo Switch</span> (last one with the help of my amazing colleagues in porting process)
+
+		&nbsp;...I also worked as a <span class="emphasizeText-2">UI designer, illustrator and composer</span> for different agencies and contractors.<br><br>
+
               <p class="tab emphasizeText">
-                
-                - Art Direction<br>
-                - UI / UX design<br>
-                - Branding design<br>
-                - 2d Character art <br>
-                - Illustration: Props, vehicles, backgrounds... <br>
-                - Frame by frame animations<br>
+	      <span class="blueText"> >&nbsp&nbspPlay... &nbsp</span> my games on <a href="https://store.steampowered.com/developer/MushyJukebox/list/100525" target="_blank">&nbspSteam </a>&nbsp;| 
+	      <a href="https://mushyjukebox.itch.io/" target="_blank">&nbsp;Itch.io <i>(includes free games!)&nbsp</i> </a><br>
+	      
+	      <span class="blueText"> >&nbsp&nbspListen... &nbsp</span> to my music on <a href="https://open.spotify.com/album/5xWQFTJSUisTReJH4OCX7E" target="_blank">&nbspSpotify &nbsp</a></span><br>
+		
+	      <span class="blueText"> >&nbsp&nbspContact:</span> &nbsp umutdervis<span class="normalText"> at </span>gmail.com  &nbsp;  | &nbsp;<a href="http://twitter.com/UmutDervis" target="_blank">&nbsp;Twitter&nbsp;</a>
               </p>
-              <!-- Whether it is UI / UX design, illustrations or creating a new brand, I can help you with it. -->
-              <br>
-              I am currently available for freelance (paid) work. 
-              <br><br>
-              <p class="emphasizeText">Contact: &nbsp &nbsp  <b>umutdervis AT gmail.com </b>   |        <a href="http://twitter.com/UmutDervis" target="_blank">Twitter</a>
-              </p>
+
+	
+	</p>
+<div class="page-header-mid pics">
+	<h3> Games </h3>
+</div>
+	<p>Below are some <span class="emphasizeText">screenshots of my released games</span> so far:</p>
+              
+              
 
             
             <!-- <br> This is my portfolio in one page format. If you want to see categorized version, 
@@ -165,7 +213,7 @@
 
               <img src="img/J2_1.jpg" alt="Just Shut up and Drive 2" class="img-responsive fit-image"><br>
               <img src="img/J2_2.jpg" alt="Just Shut up and Drive 2" class="img-responsive fit-image"><br>
-              <!-- <img src="img/J2_3.jpg" alt="Just Shut up and Drive 2" class="img-responsive fit-image"><br> -->
+              <img src="img/J2_3.jpg" alt="Just Shut up and Drive 2" class="img-responsive fit-image"><br>
 
               <img src="img/wickedRider1.jpg" alt="Wicked Rider" class="img-responsive fit-image"><br>
               <img src="img/wickedRider2.jpg" alt="Wicked Rider" class="img-responsive fit-image"><br>
@@ -183,9 +231,45 @@
               <!-- <img src="img/exp17_1.jpg" alt="Experiment 17" class="img-responsive fit-image"><br> -->
               <img src="img/exp17_2.jpg" alt="Experiment 17" class="img-responsive fit-image"><br>
 
-              <img src="img/terry1.jpg" alt="concept work for dicey dungeons" class="img-responsive fit-image"><br>
-              
+              <!-- <img src="img/terry1.jpg" alt="concept work for dicey dungeons" class="img-responsive fit-image"> -->
+
+	      <img src="img/eklips1.jpg" alt="Eklips" class="img-responsive fit-image"><br>
+              <img src="img/eklips2.jpg" alt="Eklips" class="img-responsive fit-image"><br>
+              <br>
           </div> 
+
+	<div class="page-header-mid pics">
+	<h3> Miscellaneous Work </h3>	
+	</div>
+	<p class="emphasizeText">WIP from my upcoming game, freelance work, mock-ups & experimentations: </p> <br><br>
+
+	<div class="pics" >
+	
+	<p>&emsp; ... Screenshots from my upcoming game, "the Suitor": </p>
+	<img src="img/suitor1.jpg" alt="Suitor screenshot 1" class="img-responsive fit-image"><br>
+	<img src="img/suitor2.jpg" alt="Suitor screenshot 2" class="img-responsive fit-image"><br>
+	<br>
+
+	
+	<p>&emsp; ... Overall UI design & art style experimentation for Terry Cavanagh's "Dicey Dungeons":</p>
+	<img src="img/terry1.jpg" alt="concept work for dicey dungeons" class="img-responsive fit-image"><br>
+	<br>	
+
+	<p>&emsp; ... Concept art experiments for a personal project, for the purposes of mood exploration:</p>
+	<img src="img/pyke1.jpg" alt="concept work for pyke" class="img-responsive fit-image"><br>
+	<img src="img/pyke2.png" alt="concept work for pyke" class="img-responsive fit-image"><br>
+	<img src="img/pyke3.png" alt="concept work for pyke" class="img-responsive fit-image"><br>
+	<br>
+
+	<p>&emsp; ... Complete UI design for Synthmaster v1.0 (released around 2005),
+		<br>&emsp;&emsp;&emsp;&emsp;including logo designs for both the company & the product: </p>
+	<img src="img/synth/easy.jpg" alt="synthmaster1-1" class="img-responsive fit-image"><br>
+	<img src="img/synth/osc1.jpg" alt="synthmaster1-2" class="img-responsive fit-image"><br>
+	<img src="img/synth/mod1.jpg" alt="synthmaster1-3" class="img-responsive fit-image"><br>
+	<br>
+	</div> 
+
+
 
           <!--
           <div class="well">            
@@ -206,7 +290,7 @@
           </div>
 
           <div class="cpyright"> 
-            <p>copyright © 2020, umutdervis.com </p>
+            <p>© 2024 - Umut Dervis </p>
             <br><br><br><br>
           </div>
 
